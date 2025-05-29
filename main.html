@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nader Mousa | Front-End Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .project-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #f8f9fa;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nader Mousa</h1>
+    <p>Front-End Developer | HTML, CSS, JavaScript, Bootstrap</p>
+  </header>
+
+  <section class="container">
+    <h2 class="text-center mb-5">About Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <p class="lead text-center">I am a passionate front-end developer who creates modern, responsive, and animated user interfaces. With a strong eye for design, I transform ideas into engaging digital experiences using HTML, CSS, Bootstrap, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+    <div class="row g-4">
+     <div class="col-md-4 col-12">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Charisma Group</h5>
+            <p class="card-text">A fully responsive using Bootstrap.</p>
+            <a href="https://charismagroup.tv/" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Let's Greece</h5>
+            <p class="card-text">A fully responsive using Bootstrap.</p>
+            <a href="https://greecediscoveries.com/" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Alsamaha For Finance</h5>
+            <p class="card-text">A fully responsive using Bootstrap.</p>
+            <a href="https://alsamaha.com.jo/" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Julia World</h5>
+            <p class="card-text">A fully responsive using Bootstrap.</p>
+            <a href="https://julia-world.com/" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="text-center mb-5">Contact</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+         <p><strong>Email:</strong> <a href="mailto:barahmanader8@gmail.com">barahmanader8@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nader-barahma-823aba180/" target="_blank">LinkedIn/Nader</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+962787831203">+962 78 783 1203</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Nader Mousa. All rights reserved.
+  </footer>
+</body>
+</html>
